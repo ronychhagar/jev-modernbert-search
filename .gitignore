@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model and experiment outputs
+.cache/
+checkpoints/
+outputs/
+data/
+*.safetensors
+*.pt
+*.pth
+
+# Local configuration
+.env
+.vscode/
+.idea/
+
+# Python tooling
+.pytest_cache/
+*.egg-info/
+dist/
+build/
